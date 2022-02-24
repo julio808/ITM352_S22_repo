@@ -1,0 +1,14 @@
+<script src="./products_data.js"></script>
+
+<table border="1">
+    <tr><th>Number</th><th>Item</th></tr>
+    <script>
+    var count = 1;
+        while (eval("typeof name" + count) != 'undefined') {
+            document.write(`
+                <tr><td>${count}</td><td>${eval('name'+count)}</td></tr>
+                `);
+                count++;
+        }
+    </script>
+</table>
